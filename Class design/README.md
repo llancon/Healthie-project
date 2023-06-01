@@ -64,7 +64,45 @@ Assuming you have Ruby installed:
 ```shell
 ruby main.rb
 ```
+Output: 
+```
+Cat: Whiskers
+Dog: Buddy
 
+Feeding the Whiskers liked food:
+Whiskers likes CatFood:
+Meow Meow Meow 
+Whiskers likes Chicken:
+Meow Meow Meow 
+Whiskers likes Milk:
+Meow Meow Meow 
+Feeding the Whiskers disliked food:
+Whiskers dislikes DogFood:
+Meow 
+Whiskers dislikes HumanFood:
+Meow 
+Whiskers dislikes Lemons:
+Meow 
+
+Feeding the Buddy liked food:
+Buddy likes DogFood:
+Bark Bark Bark 
+Buddy likes CatFood:
+Bark Bark Bark 
+Buddy likes Chicken:
+Bark Bark Bark 
+Buddy likes HumanFood:
+Bark Bark Bark 
+Feeding the Buddy disliked foods:
+Buddy dislikes Milk:
+Bark 
+Buddy dislikes Lemons:
+Bark 
+
+Animal sounds:
+Meow 
+Bark 
+```
 
 ## Examples
 
