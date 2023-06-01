@@ -57,9 +57,8 @@ Feel free to explore and utilize these classes to interact with different animal
 - `Lemons`: Sour lemons that are not enjoyed by any of our animal friends.
 
 ## How to Run
-
-1. Ensure you have Ruby installed on your system.
-2. Clone this repository and navigate to the project directory.
+Assuming you have Ruby installed:
+1. Clone this repository and navigate to the project directory 'Class Design'.
 3. Open the terminal and run the following command:
 
 ```shell
