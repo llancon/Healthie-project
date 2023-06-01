@@ -1,0 +1,2 @@
+class Chicken < HumanFood
+end

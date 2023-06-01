@@ -1,0 +1,2 @@
+class Milk < HumanFood
+end

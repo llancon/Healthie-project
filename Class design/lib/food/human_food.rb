@@ -1,0 +1,2 @@
+class HumanFood
+end
