@@ -1,6 +1,6 @@
 class Cat < Animal
     def likes?(food)
-      food.is_a?(CatFood) || food.is_a?(Chicken) || food.is_a?(Milk)
+      food.food_type == "cat_food" || food.food_type == "chicken" || food.food_type == "milk"
     end
   
     def make_noise

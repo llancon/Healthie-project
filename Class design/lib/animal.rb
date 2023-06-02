@@ -13,11 +13,11 @@ class Animal
       end
     end
   
-    def likes?(food)
-      false
-    end
-  
-    def make_noise
+    # def likes?(food)
       # Implemented by subclasses (Cat, Dog, etc.) 
-    end
+    # end
+  
+    # def make_noise
+      # Implemented by subclasses (Cat, Dog, etc.) 
+    # end
   end

@@ -1,6 +1,7 @@
 require_relative 'lib/animal'
 require_relative 'lib/cat'
 require_relative 'lib/dog'
+require_relative 'lib/food/food'
 require_relative 'lib/food/cat_food'
 require_relative 'lib/food/dog_food'
 require_relative 'lib/food/human_food'

@@ -4,7 +4,6 @@ Welcome to the delightful world of Pets! 🎉
 
 Here you'll find: Cats and Dogs. Each of them has their unique preferences when it comes to food and their special sounds. Let's dive in and get to know them better! 🐾
 
-## Class Overview
 
 # Animal Classes 🐱🐶
 
@@ -22,8 +21,6 @@ The `Animal` class is the base class for all animals. It provides common functio
 
 - `initialize(name)`: Initializes an instance of the `Animal` class with the given name.
 - `eat(food)`: Represents the animal eating the specified food. The animal makes noise when eating.
-- `likes?(food)`: Checks if the animal likes the given food.
-- `make_noise`: Abstract method to be implemented by subclasses.
 
 ## Cat
 
@@ -40,7 +37,7 @@ The `Dog` class represents a dog, inheriting from the `Animal` class.
 
 ### Methods
 
-- `likes?(food)`: Checks if the dog likes the given food. Dogs like `DogFood`, `CatFood`, `Chicken`, and `HumanFood` excluding specific human foods like `Milk` and `Lemons`.
+- `likes?(food)`: Checks if the dog likes the given food. Dogs like `DogFood`, `CatFood`, `Chicken`, and `HumanFood`.
 - `make_noise`: Makes the dog bark.
 
 ---
@@ -50,11 +47,12 @@ Feel free to explore and utilize these classes to interact with different animal
 
 
 ### Food 🍗🥛🍋🐔
-- `CatFood`: A scrumptious cat food loved by cats.
-- `DogFood`: A tasty dog food adored by dogs.
-- `HumanFood`: A delicious human food that dogs find appealing.
-- `Milk`: A creamy beverage cherished by cats.
+- `CatFood`: A food loved by cats.
+- `DogFood`: A food adored by dogs.
+- `HumanFood`: A food that dogs find appealing.
+- `Milk`: A beverage prefered by cats.
 - `Lemons`: Sour lemons that are not enjoyed by any of our animal friends.
+- `Chicken`: A human food loved by dogs.
 
 ## How to Run
 Assuming you have Ruby installed:
@@ -64,7 +62,7 @@ Assuming you have Ruby installed:
 ```shell
 ruby main.rb
 ```
-Output: 
+Output:
 ```
 Cat: Whiskers
 Dog: Buddy
@@ -104,7 +102,7 @@ Meow
 Bark 
 ```
 
-## Examples
+## More Examples
 
 Here are a few examples that demonstrate how the code works:
 

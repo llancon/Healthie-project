@@ -25,4 +25,3 @@ To find the largest prime number in 5 seconds, execute the following command:
 ruby prime_number_finder.rb 5
 # The above command will find the largest prime number in 5 seconds. You can change the number of seconds to any number between 1 and 30.
 ```
-Feel free to adjust the time frame by changing the number of seconds in the command.
